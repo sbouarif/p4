@@ -48,6 +48,25 @@
             border: 2px solid #ddd;
             border-radius: 10px;
         }
+       
+        /* Custom CSS for the photo gallery */
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .gallery-container .gallery-item {
+            text-align: center;
+            width: 300px; 
+        }
+
+        .gallery-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
     </style>
 </head>
 <body>
@@ -102,7 +121,7 @@
         <h2 class="hobby-title">Photography</h2>
         <div class="image-container">
             <img src="photos/photography1.jpg" alt="Photography Image 1">
-            <img src="photos/photography2.heic" alt="Photography Image 2">
+            <img src="photos/photography2.jpg" alt="Photography Image 2">
             <img src="photos/photography3.jpg" alt="Photography Image 3">
         </div>
     </div>
@@ -132,7 +151,7 @@
 <div class="hobby-section">
     <h2 class="hobby-title">Traveling</h2>
     <div class="image-container">
-        <img src="photos/traveling1.heic" alt="Traveling Image 1">
+        <img src="photos/traveling1.jpg" alt="Traveling Image 1">
         <img src="photos/traveling2.jpg" alt="Traveling Image 2">
         <img src="photos/traveling3.jpg" alt="Traveling Image 3">
     </div>
@@ -144,7 +163,7 @@
     <div class="image-container">
         <img src="photos/hiking1.jpg" alt="Hiking Image 1">
         <img src="photos/hiking2.jpg" alt="Hiking Image 2">
-        <img src="photos/hiking3.heic" alt="Hiking Image 3">
+        <img src="photos/hiking3.jpg" alt="Hiking Image 3">
     </div>
 </div>
 
