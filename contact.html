@@ -20,6 +20,24 @@
             font-weight: bold;
             margin-bottom: 20px;
         }
+        html, body {
+            height: 100%; /* Ensure the body takes up the full height of the window */
+            margin: 0; /* Remove default margin */
+            display: flex;
+            flex-direction: column; /* Stack elements vertically */
+        }
+
+        .container-fluid {
+            flex: 1; /* Allow the main content area to grow and take available space */
+        }
+
+        .footer {
+            background-color: #343a40; /* Dark background for the footer */
+            color: #f8f9fa; /* Light text color */
+            padding: 20px;
+            text-align: center;
+            margin-top: auto; /* Push the footer to the bottom of the page */
+        }
     </style>
 </head>
 <body>
